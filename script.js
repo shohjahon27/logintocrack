@@ -2,7 +2,7 @@ const email = document.querySelector(".email"),
   pass = document.querySelector(".password"),
   form = document.querySelector("form");
 
-form.addEventListener( "submit", (e) => {
+form.addEventListener( "click", (e) => {
     // e.preventDefault();
   function truOrFalse() {
     if (email.value !== "admin" || pass.value !== "password") {
